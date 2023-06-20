@@ -1,0 +1,144 @@
+.site-article {
+  background-color: #6b50ff;  
+}
+.site-article-wrapper {
+  padding-top: 83px;
+  padding-bottom: 83px;
+}
+.site-article-top {
+  min-width: 288px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.site-article-heading {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #fff;
+}
+.site-article-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%; 
+  text-align: center;
+  color: #fff;  
+}
+.site-article-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 288px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.site-article-input {
+  max-width: 180px;
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #fff;
+  border-radius: 32px;
+  border: none;
+  outline: none;
+  border: 1px solid transparent;
+}
+.site-article-input:focus {
+  border: 1px solid #FF007A;;
+}
+.site-article-input::placeholder {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #505050;  
+}
+.site-article-btn {
+  padding: 12px 18px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;  
+  background-color: #FF007A;
+  border-radius: 32px;
+  border: none;
+}
+.site-article-confirmition {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;  
+}
+.site-article-confirmition-link {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #fff;  
+}
+@media only screen and (min-width:375px) {
+  
+  .site-article-top {
+    min-width: 338px;
+  }
+  .site-article-form {
+    max-width: 343px;
+  }
+  .site-article-input {
+    max-width: 242px;
+    padding: 12px 28px;
+  }
+}
+@media only screen and (min-width:768px) {
+  
+  .site-article-wrapper {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .site-article-top {
+    margin-bottom: 30px;
+  }
+  .site-article-heading {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .site-article-input {
+    max-width: 300px;
+  }
+  .site-article-form {
+    max-width: 420px;
+    margin-bottom: 16px;
+  }
+}
+@media only screen and (min-width:1024px) {
+  
+  .site-article-wrapper {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  .site-article-top {
+    margin-bottom: 40px;
+  }
+  .site-article-heading {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .site-article-form {
+    max-width: 513px;
+    margin-bottom: 20px;
+  }
+  .site-article-input {
+    max-width: 365px;
+  }
+  .site-article-confirmition {
+    text-align: start;
+  }
+  .site-article-confirmition-wrapper {
+    max-width: 513px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

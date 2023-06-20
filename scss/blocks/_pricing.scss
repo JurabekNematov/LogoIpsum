@@ -1,0 +1,196 @@
+.pricing {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+.pricing-top {
+  max-width: 288px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.pricing-item {
+  max-width: 288px;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 12px;
+  border: 1px solid transparent;
+}
+.pricing-item:last-child{
+  margin-bottom: 0;
+}
+.pricing-item:hover {
+  border-radius: 17px;
+  border: 1px solid #ff007a;
+}
+.pricing-heading {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #000;  
+}
+.pricing-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000;  
+}
+.pricing-item-top {
+  margin-bottom: 31px;
+}
+.pricing-item-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #211F25;
+}
+.pricing-item-cost {
+  display: block;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  color: #211F25;  
+}
+.pricing-item-price {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3D3A41; 
+}
+.pricing-item-bottom {
+  margin-bottom: 31px;
+}
+.pricing-item-bottom-item {
+  display: flex;
+}
+.pricing-item-bottom-item::before {
+  display: inline-block;
+  width: 23px;
+  height: 23px;
+  margin-right: 20px;
+  background-image: url("../../images/Check.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+.pricing-item-bottom-item:last-child {
+  margin-bottom: 0;
+}
+.pricing-item-bottom-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.02em;
+  color: #3D3A41;
+}
+.pricing-item-link {
+  display: block;
+  max-width: 288px;
+  width: 100%;
+  padding: 15px 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15.6098px;
+  line-height: 150%;
+  text-decoration: none;
+  text-align: center;
+  color: #ff007a;  
+  border: 1px solid #ff007a;
+  border-radius: 32px;  
+}
+
+.pricing-item:hover .pricing-item-link {
+  color: #fff;  
+  background: #ff007a;
+  border: 1px solid #ff007a;
+}
+
+@media only screen and (min-width:375px) {
+  
+  .pricing-top {
+    min-width: 297px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .pricing-item {
+    padding: 20px;
+    min-width: 348px;
+  }
+  .pricing-item-link {
+    min-width: 324px;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width:765px) {
+  
+  .pricing-top {
+    margin-bottom: 50px;
+  }
+  .pricing-item {
+    padding: 20px;
+  }
+  .pricing-heading {
+    margin-bottom: 14px;
+    font-size: 40px;
+    line-height: 54px;
+  }
+  .pricing-text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .pricing-item-link {
+    min-width: 324px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width:992px) {
+
+  .pricing-item-bottom-item-text {
+  font-size: 14px;
+}
+}
+
+@media only screen and (min-width:1024px) {
+  
+  .pricing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .pricing-top {
+    max-width: 584px;
+    margin-bottom: 80px;
+  }
+  .pricing-item {
+    max-width: 405px;
+    margin-bottom: 0;
+    padding: 31px;
+  }
+  .pricing-heading {
+    margin-bottom: 16px;
+    font-size: 48px;
+    line-height: 58px;
+  }
+  .pricing-text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .pricing-item-link {
+    max-width: 342px;
+  }
+}
+@media only screen and (min-width:1150px) {
+  
+  .pricing-item-bottom-item-text {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+@mixin reset-list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+@mixin reset-link {
+  display: inline-block;
+  text-decoration: none;
+}
+@mixin pseudo($pos: absolute, $display: block, $content: '', $width: 0,  $height: 0){
+  position: $pos;
+  display: $display;
+  width: $width;
+  height: $height;
+  content: $content;
+}

@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: "Nunito";
+}
+img {
+  display: block;
+  height: auto;
+}
+.site-main {
+  flex-grow: 1;
+}

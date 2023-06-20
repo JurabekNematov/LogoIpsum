@@ -1,0 +1,27 @@
+:root {
+  --main-body-color: #fff;
+  --main-section-title:#211f25;
+  --main-section-text:#3D3A41;
+  --main-card-color: #f7f5ff;
+  --main-dark-title: #fff;
+  --main-dark-item: #fcfbff;
+  --main-link-color: #ff007a;
+  --main-card-bg: #fff;
+  --main-card-hover:#000;
+  --main-carusel-hover:#f7f5ff;
+  --main-form-color:#6b50ff;
+
+  
+}
+.dark {
+  --main-link-color: #ff94c7;
+  --main-section-title: #fff;
+  --main-section-text:#d6d6d6;
+  --main-dark-item:#211f25;
+  --main-body-color:#000;
+  --main-card-bg: #000;
+  --main-card-hover:#211f25;
+  --main-card-color:#211F25;
+  --main-carusel-hover:#555555;
+  --main-form-color:linear-gradient(72.67deg, #1A1822 2.78%, #9040E3 173.27%), #6B50FF;
+}

@@ -1,0 +1,126 @@
+.protection {
+  padding-top: 40px;
+}
+.protection-item {
+  max-width: 288px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+.protection-item:first-child {
+  background-color: #fcfbff;
+}
+.protection-item:last-child {
+  margin-bottom: 0;
+}
+.protection-item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.protection-start {
+  max-width: 288px;
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+}
+.protection-heading {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: #211F25;  
+}
+.protection-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 155%;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #3D3A41;  
+  margin-bottom: 40px;
+}
+.protection-link {
+  display: block;
+  max-width: 187px;
+  width: 100%;
+  padding: 17px 52px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 155%;
+  letter-spacing: 0.01em;
+  color: #FF007A;  
+  text-align: center;
+  border: 1px solid #FF007A;
+  border-radius: 32px;  
+}
+.protection-end {
+  max-width: 288px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding-right: 0;
+  padding-left: 0;
+}
+.protection-img {
+  max-width: 288px;
+  width: 100%;
+  text-align: center;
+}
+@media only screen and (min-width:320px) {
+  
+  .protection {
+    padding-top: 80px;
+  }
+  .protection-item {
+    max-width: 343px;
+  }
+  .protection-start {
+    max-width: 343px;
+  }
+  .protection-end {
+    max-width: 343px;
+  }
+  .protection-img {
+    max-width: 343px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width:768px) {
+
+.protection-item {
+  max-width: 500px;
+}
+.protection-start {
+  max-width: 500px;
+}
+.protection-end {
+  max-width: 500px;
+}
+.protection-img {
+  max-width: 500px;
+  width: 100%;
+}
+}
+
+@media only screen and (min-width:1024px) {
+
+  .protection-item {
+    max-width: 1280px;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .protection-start {
+    max-width: 624px;
+  }
+  .protection-end {
+    max-width: 620px;
+  }
+  .protection-img {
+    max-width: 620px;
+  }
+
+}
+
+
+
